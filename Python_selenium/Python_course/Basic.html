@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Login Page</title>
+</head>
+<body>
+    <h2 id="page-header">Customer Portal Login</h2>
+    
+    <form id="login-form" action="/login" method="POST">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="login_user" class="input-field" placeholder="Enter username">
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="login_pass" class="input-field" placeholder="Enter password">
+        </div>
+
+        <button type="submit" id="btn-login" class="btn btn-success">Login</button>
+    </form>
+
+    <div id="footer-links">
+        <a href="/forgot-password" class="link-item">Forgot Your Password?</a>
+        <a href="/privacy-policy" class="link-item">Read Privacy Policy</a>
+    </div>
+</body>
+</html>
